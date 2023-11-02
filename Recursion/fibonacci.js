@@ -19,3 +19,6 @@ function fibonacci(n) {
 
 console.log(fibonacci(2))
 console.log(fibonacci(5))
+
+
+//big-o = 0(n) which means big-o = 0(1) = linear time complexity
