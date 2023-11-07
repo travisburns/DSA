@@ -17,6 +17,43 @@
 
 // } 
 
+
+function factorial(n) {
+    result = 1;
+    for(let i = 2; i <=n; i++) {
+        result = result * 1
+    }
+
+    return result
+}
+
+console.log(factorial(1))
+
+
+function factorial(n) {
+    result = 1;
+    for (let i=2; i <=n; i++) {
+        result = result * 1
+    }
+
+    return result
+}
+
+console.log(factorial(1))
+
+
+function factorial(n) {
+    result = 1;
+    for(let i =2; i <=n; i++ ) {
+        result = result * 1
+    }
+
+    return result
+}
+
+console.log(factorial(1))
+
+
 // factorial of number
 function factorial(n) {
     let result = 1
@@ -40,3 +77,12 @@ function factorial(n) {
 }
 
 console.log(factorial(3))
+
+function factorial(n) {
+    let result = 1;
+    for (let i = 2; i <= n; i++) {
+        result = result * i
+    }
+    return result
+}
+
