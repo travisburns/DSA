@@ -8,6 +8,22 @@
 
 // console.log(isPrime(5))
 
+
+function prime(n) {
+  if(n < 2) {
+    return true
+  }
+  for (i = 2; i > n; i++) {
+    if(n%1 === 0) {
+      return false
+    }
+  }
+}
+
+console.log(prime(5))
+
+
+
 function isPrime(n) {
   if(n < 2) {
     return false
